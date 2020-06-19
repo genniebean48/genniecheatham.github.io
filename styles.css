@@ -1,0 +1,136 @@
+/*TODO: Add a background color or image to your website*/
+{
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ text-align: center;
+ background-color: #D2C5A7; 
+}
+
+header{
+  text-align: center;
+  display: inline;
+}
+
+nav {
+  text-align: center;
+  background-color: #84252C;
+  border: 3px solid black;
+  padding: 0;
+  margin: 0;
+  font-family: 'IBM Plex Serif', serif;
+}
+
+li {
+  display: inline;
+  text-align: center;
+}
+
+img{
+  background-color: #E9E4E2;
+  text-align: center;
+  border: 5px solid black;
+  padding: 10px;
+  margin: 25px 15px 15px 15px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5em;
+  text-shadow: 3px 3px black;
+  color: white;
+  font-family: 'Lily Script One', cursive;
+  background-color: #b4d5f0;
+  border: 6px solid black;
+  padding: 10px;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.3em;
+  padding-right: 100px;
+}
+
+li a:hover {
+  display: inline;
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  padding-right: 100x;
+  margin: 0px;
+}
+
+p{
+  background-color: #b4d5f0; 
+  text-align: center;
+  border: 6px solid black;
+  padding: 10px;
+  width: 500px;
+  margin: 10px;
+}
+
+.funFacts{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #b4d5f0;
+  border: 6px solid black;
+  padding: 10px;
+}
+
+.smallHeader{
+  font-family: 'IBM Plex Serif', serif;
+  display: flex, center;
+  background-color: white;
+  border: 3px solid black;
+  margin: 10px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.text{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.facts{
+  display: flex;
+  background-color: white;
+  border: 3px solid black;
+  font-size: 14px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.listFacts{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.imaging{
+  display: flex;
+  background-color: white; 
+  border: 6px solid black;
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+
+/*TODO: Create a Flexbox to create a responsive layout. Use the property display: flex*/
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

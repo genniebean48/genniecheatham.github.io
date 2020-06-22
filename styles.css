@@ -14,8 +14,21 @@ header {
   display: inline;
 }
 
-nav {
-  text-align: center;
+.nav1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: #FBBEBD;
+  border: 3px solid black;
+  padding: 0;
+  margin: 0;
+  font-family: "IBM Plex Serif", serif;
+}
+
+.nav2 {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
   background-color: #FBBEBD;
   border: 3px solid black;
   padding: 0;
